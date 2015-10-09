@@ -8,15 +8,19 @@
 
     <link rel="apple-touch-icon" href="apple-touch-icon.png">
     <!-- Place favicon.ico in the root directory -->
+    
+    <link href='https://fonts.googleapis.com/css?family=Work+Sans:400,300,500,700,200' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="../styles/main.css">
+    <script src="../scripts/vendor/modernizr.js"></script>
 
-    <link rel="stylesheet" href="styles/main.css">
-    <script src="scripts/vendor/modernizr.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 </head>
 <body>
     <!--[if lt IE 10]>
         <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
-    <p>this is the test component</p>
+
+@@include('./../components/_header.html')
 
     <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
     <script>
@@ -28,11 +32,9 @@
         ga('create','UA-XXXXX-X');ga('send','pageview');
     </script>
 
-    <script src="scripts/vendor.js"></script>
-
-    <script src="scripts/plugins.js"></script>
-
-    <script src="scripts/main.js"></script>
+    <script src="../scripts/vendor.js"></script>
+    <script src="../scripts/plugins.js"></script>
+    <script src="../scripts/main.js"></script>
 </body>
 </html>
 
