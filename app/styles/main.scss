@@ -4,6 +4,10 @@ $icon-font-path: '../fonts/';
 @import "bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
 // endbower
 
+// variables
+$color-primary: #10E3DD;
+$color-secondary: #8199A1;
+
 .browserupgrade {
 	margin: 0.2em 0;
 	background: #ccc;
@@ -17,6 +21,21 @@ body {
 
 section {
 	@extend .container;
+}
+
+/* -----------------------------------------------------------------------
+  PAGE SPECIFIC COMPONENTS
+----------------------------------------------------------------------- */
+.pg-podcast {
+	background: purple;
+}
+
+.pg-about {
+	background: red;
+}
+
+.pg-humble-beginnings {
+	background: orange;
 }
 
 /* Responsive: Portrait tablets and up */
@@ -41,3 +60,8 @@ section {
 }
 
 @import "components/_header.scss";
+@import "components/_footer.scss";
+@import "components/_recent-podcast.scss";
+@import "components/_recent-humble-beginnings.scss";
+@import "components/_recent-punanimation.scss";
+
