@@ -1,0 +1,48 @@
+.cp-recent-podcast {
+    margin-bottom: 80px;
+
+    h2 {
+        margin-top: 20px;
+        margin-bottom: 40px;
+        text-align: center;
+        text-transform: uppercase;
+        font-weight: 300;
+        color: $color-secondary;
+    }
+
+    .podcast {
+        min-height: 150px;
+        padding: 20px 0;
+
+        &.top {
+            background: url(http://placehold.it/1350x150);
+        }
+
+        &.bottom {
+            background: url(http://placehold.it/1350x150);
+        }
+    }
+
+    .logo {
+        width: 100px;
+        height: 100px;
+        background: red;
+        margin: 0 auto;
+    }
+
+    p {
+        text-transform: uppercase;
+        text-align: center;
+        margin: 0;
+        padding: 40px 0;
+    }
+}
+
+@media screen and (min-width: 992px) {
+
+}
+
+
+@media screen and (min-width: 1200px) {
+
+}
