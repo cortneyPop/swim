@@ -22,8 +22,22 @@
 
 @@include('./../components/_header.html')
 @@include('./../components/_recent-podcast.html')
-@@include('./../components/_recent-humble-beginnings.html')
-@@include('./../components/_recent-punanimation.html')
+<section>
+    <article>
+        @@include('./../components/_recent-punanimation.html')
+        @@include('./../components/_recent-humble-beginnings.html')
+    </article>
+</section>
+<section>
+    <article>
+        <div class="col-sm-6">
+            @@include('./../components/_twitter-embed.html')
+        </div>
+        <div class="col-sm-6">
+            @@include('./../components/_soundcloud-embed.html')
+        </div>
+    </article>
+</section>
 @@include('./../components/_footer.html')
 
     <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
