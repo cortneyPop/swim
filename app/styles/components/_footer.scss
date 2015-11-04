@@ -1,9 +1,20 @@
 .cp-footer {
-    background: #555;
+    font-family: 'Work Sans', sans-serif;
+    background: $color-primary;
     margin-top: 50px;
-    padding-top: 20px;
-    padding-bottom: 10px;
+    padding-top: 60px;
+    padding-bottom: 60px;
     color: #fff;
+    text-align: center;
+
+    a {
+        color: #fff;
+        text-transform: uppercase;
+
+        &:hover {
+            color: $color-secondary;
+        }
+    }
 }
 
 @media screen and (min-width: 992px) {

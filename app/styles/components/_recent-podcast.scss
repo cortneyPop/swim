@@ -7,27 +7,33 @@
         text-align: center;
         text-transform: uppercase;
         font-weight: 300;
-        color: $color-secondary;
     }
 
     .podcast {
         min-height: 150px;
         padding: 20px 0;
+        transition: all .25s ease-in-out;
+        opacity: 0.8;
 
         &.top {
-            background: url(http://placehold.it/1350x150);
+            background: url(../images/podcasts/01_pamela-green/banner.png);
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+            min-height: 130px;
         }
 
         &.bottom {
             background: url(http://placehold.it/1350x150);
         }
-    }
 
-    .logo {
-        width: 100px;
-        height: 100px;
-        background: red;
-        margin: 0 auto;
+        h2 {
+            color: #fff;
+            font-size: 44px;
+        }
+
+        &:hover {
+            opacity: 1;
+        }
     }
 
     p {

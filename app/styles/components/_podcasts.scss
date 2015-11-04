@@ -1,9 +1,66 @@
 .pg-podcast {
-    
+    h2 {
+        text-align: center;
+        margin-bottom: 50px;
+    }
+
+    article {
+        margin-bottom: 60px;
+    }
+
+    .podcast {
+        text-align: center;
+        &.ep-01 {
+            background: url(../images/podcasts/01_pamela-green/banner-md.png);
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+            min-height: 220px;
+        }
+    }
+
+    h4 {
+        padding-top: 70px;
+    }
+
+    h4 a {
+        color: #fff;
+        font-size: 44px;
+        font-weight: 300;
+        text-transform: uppercase;
+
+        &:hover, &.active {
+            opacity: .8;
+        }
+    }
+
+    .panel-body {
+        padding-top: 60px;
+    }
+
+    .bio-copy {
+        margin: 40px auto;
+    }
+    .detail-work {
+        img {
+            width: 100%;
+        }
+    }
+    ul {
+        margin: 0;
+        padding: 0;
+    }
+
+    li {
+        list-style: none;
+    }
 }
 
 @media screen and (min-width: 768px) {
-
+    .pg-podcast {
+        .bio-copy {
+           width: 75%; 
+        }
+    }
 }
 
 

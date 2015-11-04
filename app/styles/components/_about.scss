@@ -1,9 +1,117 @@
 .pg-about {
     text-align: center;
     font-size: 24px;
+
+    .statement {
+        margin-bottom: 50px;
+
+        p {
+            margin: 20px auto;
+            width: 100%;
+        }
+        
+        ul {
+            margin: 30px 0 40px 0;
+            padding: 0;
+        }
+
+        li {
+            text-transform: uppercase;
+            display: block;
+            list-style: none;
+            color: $color-primary;
+            font-weight: 600;
+            padding: 10px 20px;
+            line-height: 24px;
+
+            &:first-of-type {
+                border-top: 1px solid $color-secondary;
+            }
+
+            &:last-of-type {
+                border-bottom: 1px solid $color-secondary;
+            }
+        }
+    }
     
     article {
         margin-top: 30px;
         margin-bottom: 30px;
+
+        &.bio {
+            text-align: left;
+            
+            img {
+                width: 100%;
+            }
+
+            h3 {
+                font-size: 21px;
+                margin-bottom: 0;
+
+                span {
+                    font-size: 13px;
+                    color:red;
+                    float: right;
+
+                }
+            }
+
+            h4 {
+                font-size: 16px;
+                margin-top: 4px;
+            }
+
+            h5 {
+
+            }
+
+            p {
+                font-size: 14px;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .pg-about {
+        .statement {
+            p {
+                margin: 50px auto 60px;
+                width: 70%;
+            }
+
+            ul {
+                margin: 20px 0 70px 0;
+                padding: 0;
+            }
+
+            li {
+                display: inline;
+                color: $color-primary;
+
+                &:first-of-type {
+                    border-top: 0;
+                }
+
+                &:last-of-type {
+                    border-bottom: 0;
+                }
+            }
+        }
+    }
+}
+
+
+@media screen and (min-width: 992px) {
+    .pg-about {
+
+    }
+}
+
+
+@media screen and (min-width: 1200px) {
+    .pg-about {
+
     }
 }

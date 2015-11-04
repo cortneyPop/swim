@@ -1,0 +1,79 @@
+.pg-punanimation {
+    text-align: center; 
+    padding-bottom: 100px; 
+    
+    h2 {
+        margin-bottom: 50px;
+    }
+
+    p {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    h4 {
+        margin-top: 20px;
+    }
+
+    a {
+        display: block;
+        font-size: 24px;
+    }
+
+    .vimeo-link {
+        background: $color-primary;
+        color: #fff;
+        opacity: .7;
+        padding: 10px 15px;
+        width: 100%;
+        margin: 10px auto;
+        margin-bottom: 20px;
+        transition: all .2 ease-in-out;
+
+        &:hover, &:focus {
+            opacity: 1;
+        }
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .pg-punanimation {
+        padding-bottom: 300px;  
+
+        p {
+            width: 70%;
+            margin: 0 auto;
+        }
+
+        h4 {
+            width: 60%;
+            margin: 20px auto;
+        }
+
+        .vimeo-link {
+            margin-top: 20px;
+            width: 30%;
+        }
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .pg-punanimation {
+        p {
+            width: 60%;
+            margin: 0 auto;
+        }
+
+        h4 {
+            width: 40%;
+            margin: 20px auto;
+        }
+    }
+}
+
+
+@media screen and (min-width: 1200px) {
+    .pg-punanimation {
+        
+    }
+}

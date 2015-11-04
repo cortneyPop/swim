@@ -8,6 +8,27 @@ $icon-font-path: '../fonts/';
 $color-primary: #10E3DD;
 $color-secondary: #8199A1;
 
+$color-gray-light: #8199a1;
+$color-red: #ff5640;
+$color-blue-dark: #12354b;
+$color-yellow: #f9d900;
+
+.primary {color: $color-primary}
+.secondary {color: $color-secondary}
+.gray-light {color: $color-gray-light}
+.red {color: $color-red;}
+.blue-dark {color: $color-blue-dark;}
+.yellow {color: $color-yellow;}
+
+.primary-bg {background: $color-primary}
+.secondary-bg {background: $color-secondary}
+.gray-light-bg {background: $color-gray-light}
+.red-bg {background: $color-red;}
+.blue-dark-bg {background: $color-blue-dark;}
+.yellow-bg {background: $color-yellow;}
+
+
+
 .browserupgrade {
 	margin: 0.2em 0;
 	background: #ccc;
@@ -16,7 +37,8 @@ $color-secondary: #8199A1;
 }
 
 body {
-	font-family: 'Work Sans', sans-serif;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 16px;
 }
 
 section {
@@ -27,11 +49,26 @@ article {
 	@extend .row;
 }
 
+h2, h3, h4, h5, h6 {
+    font-family: 'Work Sans', sans-serif;
+}
+
 h2 {
 	text-transform: uppercase;
 	font-size: 24px;
 	font-weight: 300;
 	color: $color-secondary;
+}
+
+a {
+	color: $color-primary;
+	transition: all .15s ease-in-out;
+
+	&:hover, &:active,
+    &:focus {
+		color: $color-secondary;
+		text-decoration: none;
+	}
 }
 
 /* -----------------------------------------------------------------------
@@ -61,11 +98,13 @@ h2 {
 
 
 @import "components/_recent-podcast.scss";
-@import "components/_recent-humble-beginnings.scss";
+@import "components/_recent-you-are-swim.scss";
 @import "components/_recent-punanimation.scss";
 
 @import "components/_podcasts.scss";
 @import "components/_about.scss";
+@import "components/_you-are-swim.scss";
+@import "components/_punanimation.scss";
 
 @import "components/_header.scss";
 @import "components/_footer.scss";

@@ -1,0 +1,100 @@
+.pg-you-are-swim {
+    text-align: center;
+
+    article {
+        margin-bottom: 15px;
+    }
+
+    img {
+        width: 100%;
+    }
+
+    h4 {
+        margin-top: 4px;
+    }
+
+    h5 {
+        margin: 0 0 20px 0;
+        text-transform: uppercase;
+    }
+
+    .intro {
+        width: 100%;
+        margin: 50px auto;
+    }
+
+    ul {
+        margin: 0;
+        padding: 0;
+    }
+
+    li {
+        list-style: none;
+    }
+
+    .color-pallette {
+        li {
+            color: #fff;
+            display: inline-block;
+            width: 75px;
+            height: 75px;
+            padding-top: 20px;
+            margin: 20px 10px;
+        }
+    }
+
+    .separate-rule {
+        padding-top: 20px;
+    }
+
+    .separate-rule-2 {
+        padding-top: 20px;
+        width: 250px;
+        margin: 0 auto;
+    }
+
+    .submission-rules {
+        margin-top: 30px;
+        border: 2px solid $color-primary;
+        border-radius: 2px;
+        padding: 20px;
+    }
+    
+    .btn {
+        margin-top: 20px;
+        background: $color-primary;
+        color: #fff;
+        opacity: .7;
+
+        &:hover {
+            opacity: 1;
+        }
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .pg-you-are-swim {
+        .intro {
+            width: 90%;
+        }
+        .separate-rule-2 {
+            width: 350px;
+        }
+    }
+}
+
+
+@media screen and (min-width: 992px) {
+    .pg-you-are-swim {
+        .intro {
+            width: 70%;
+        }
+    }
+}
+
+
+@media screen and (min-width: 1200px) {
+    .pg-you-are-swim {
+
+    }
+}
