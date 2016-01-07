@@ -10,31 +10,52 @@
 
     .podcast {
         text-align: center;
+
         &.ep-01 {
             background: url(../images/podcasts/01_pamela-green/banner-md.png);
             background-repeat: no-repeat;
             background-size: 100% 100%;
             min-height: 220px;
         }
+        &.ep-02 {
+            background: url(../images/podcasts/02_kelli-miller/banner-md.png);
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+            min-height: 220px;
+        }
+        &.ep-03 {
+            background: url(../images/podcasts/03_rosie-garschina/banner-md.jpg);
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+            min-height: 220px;
+        }
     }
-
+    
     h4 {
-        padding-top: 70px;
-    }
-
-    h4 a {
         color: #fff;
         font-size: 44px;
         font-weight: 300;
         text-transform: uppercase;
+        padding-top: 70px;
+    }
 
-        &:hover, &.active {
-            opacity: .8;
+    .panel {
+        margin-bottom: 40px;
+    }
+
+    .panel-heading {
+        opacity: .7;
+        transition: all .25s ease-in-out;
+        
+        &:hover {
+            cursor: pointer;
+            opacity: 1;
         }
     }
 
     .panel-body {
         padding-top: 60px;
+        padding-bottom: 40px;
     }
 
     .bio-copy {

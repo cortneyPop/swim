@@ -2,7 +2,7 @@
     margin-bottom: 80px;
 
     h2 {
-        margin-top: 20px;
+        margin-top: 46px;
         margin-bottom: 40px;
         text-align: center;
         text-transform: uppercase;
@@ -11,24 +11,27 @@
 
     .podcast {
         min-height: 150px;
-        padding: 20px 0;
+        padding: 1px 0;
         transition: all .25s ease-in-out;
         opacity: 0.8;
 
         &.top {
-            background: url(../images/podcasts/01_pamela-green/banner.png);
+            background: url(../images/podcasts/03_rosie-garschina/banner.jpg);
             background-repeat: no-repeat;
             background-size: 100% 100%;
             min-height: 130px;
         }
 
         &.bottom {
-            background: url(http://placehold.it/1350x150);
+            background: url(../images/podcasts/02_kelli-miller/banner.png);
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+            min-height: 130px;
         }
 
         h2 {
             color: #fff;
-            font-size: 44px;
+            font-size: 33px;
         }
 
         &:hover {
